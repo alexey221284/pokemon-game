@@ -5,8 +5,8 @@ import './App.css';
 
 const App = () => {
   const id='0';
-  const title = 'This is title';
-  const descr = 'This is Description!';
+  const title = 'Добро пожаловать';
+  const descr = 'на личный сайт Жумаева Тимофея';
   const urlBg = '../assets/bg.jpg';
   const colorBg = 'orange';
   return ( 

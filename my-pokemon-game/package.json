@@ -2,7 +2,7 @@
   "name": "my-pokemon-game",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://alexey221284.github.io/my-pokemon-game",
+  "homepage": "https://alexey221284.github.io/pokemon-game",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -f"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

@@ -1,0 +1,11 @@
+.header {
+    background-color: red;
+}
+
+.root {
+    background-image: url(../../assets/bg.jpg);
+}
+
+.root svg g {
+    fill: red;
+}

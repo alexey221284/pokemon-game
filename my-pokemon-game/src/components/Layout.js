@@ -1,6 +1,6 @@
 import s from './Layout.module.css'
 
-const Layout = ({id, title, descr, hideBackground = false}) => {
+const Layout = ({id, title, descr, link1, linkTitle1, link2, linkTitle2, hideBackground = false}) => {
     const styleRoot = hideBackground ? {backgroundImage: 'none'} : {};
     return (
         <section className={s.root} id={id} style={styleRoot}>
@@ -12,6 +12,10 @@ const Layout = ({id, title, descr, hideBackground = false}) => {
                     </div>
                     <div className={s.desc, s.full}>
                     <p>{descr}</p>
+                    </div>
+                    <div>
+                      <p><a href={link1}>{linkTitle1}</a></p>
+                      <p><a href={link2}>{linkTitle2}</a></p>
                     </div>
                 </article>
             </div>

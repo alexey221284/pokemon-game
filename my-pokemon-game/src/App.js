@@ -6,7 +6,13 @@ import './App.css';
 const App = () => {
   const id='0';
   const title = 'Добро пожаловать';
-  const descr = 'на личный сайт Жумаева Тимофея';
+  const descr = 'в портал Жумаева Тимофея';
+  const descr2 = '';
+  const title2 = 'Игры:';
+  const link1 = 'https://alexey221284.github.io/zombie-attack';
+  const link2 = 'https://alexey221284.github.io/xo-game';
+  const linkTitle1 = 'Zombie attack';
+  const linkTitle2 = 'XO game';
   const urlBg = '../assets/bg.jpg';
   const colorBg = 'orange';
   return ( 
@@ -17,8 +23,12 @@ const App = () => {
           />
       <Layout
           id={id}
-          title={title}
-          descr={descr}         
+          title={title2}
+          descr={descr2}
+          link1={link1}
+          linkTitle1={linkTitle1}
+          link2={link2}
+          linkTitle2={linkTitle2}
           urlBg={urlBg}
           />
       <Layout
